@@ -1,0 +1,66 @@
+@import './portfolio3d.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #12211c;
+  --panel-bg: #1b2d26;
+  --panel-border: #2a443a;
+  --accent-amber: #e6a94a;
+  --text-sage: #8fa598;
+}
+
+body {
+  background-color: #12211c;
+  color: #f0f6f3;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-headline {
+  font-family: 'Fraunces', serif;
+}
+
+/* Custom Kirana Glass Panels */
+.kirana-card {
+  background: linear-gradient(145deg, rgba(29, 49, 41, 0.9) 0%, rgba(23, 39, 33, 0.95) 100%);
+  border: 1px solid #2a443a;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+}
+
+.kirana-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.kirana-card-hover:hover {
+  border-color: #3d5e51;
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px -8px rgba(0, 0, 0, 0.55), 0 0 20px -5px rgba(230, 169, 74, 0.15);
+}
+
+.amber-glow-card {
+  border-color: rgba(230, 169, 74, 0.35);
+  box-shadow: 0 0 25px -5px rgba(230, 169, 74, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #12211c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a443a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e6a94a;
+}

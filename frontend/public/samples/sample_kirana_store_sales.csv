@@ -1,0 +1,29 @@
+date,sku,category,units_sold,unit_price,stock_on_hand,name,cost_price,shelf_life_days,reorder_lead_time_days
+2026-09-01,SKU-STAPLE-01,Staples & Grains,8,380,45,Royal Basmati Rice 5kg,300,,7
+2026-09-01,SKU-STAPLE-02,Staples & Grains,12,320,60,Sharbati Whole Wheat Atta 10kg,250,,5
+2026-09-01,SKU-DAIRY-01,Dairy & Perishables,22,52,30,Farm Fresh Milk 1L,42,3,1
+2026-09-01,SKU-DAIRY-06,Dairy & Perishables,2,120,40,Artisanal Organic Paneer 200g,95,7,2
+2026-09-01,SKU-SNACK-03,Snacks & Beverages,7,190,45,Grand Reserve Masala Chai 250g,115,,3
+2026-09-01,SKU-SNACK-08,Snacks & Beverages,14,55,60,Golden Crunch Butter Biscuits,38,,2
+2026-09-01,SKU-CARE-01,Personal & Home Care,4,185,35,Active Floral Detergent 2kg,140,,4
+2026-09-02,SKU-STAPLE-01,Staples & Grains,9,380,36,Royal Basmati Rice 5kg,300,,7
+2026-09-02,SKU-STAPLE-02,Staples & Grains,10,320,50,Sharbati Whole Wheat Atta 10kg,250,,5
+2026-09-02,SKU-DAIRY-01,Dairy & Perishables,24,52,26,Farm Fresh Milk 1L,42,3,1
+2026-09-02,SKU-DAIRY-06,Dairy & Perishables,1,120,39,Artisanal Organic Paneer 200g,95,7,2
+2026-09-02,SKU-SNACK-03,Snacks & Beverages,6,190,39,Grand Reserve Masala Chai 250g,115,,3
+2026-09-02,SKU-SNACK-08,Snacks & Beverages,15,55,45,Golden Crunch Butter Biscuits,38,,2
+2026-09-02,SKU-CARE-01,Personal & Home Care,5,185,30,Active Floral Detergent 2kg,140,,4
+2026-09-03,SKU-STAPLE-01,Staples & Grains,10,380,26,Royal Basmati Rice 5kg,300,,7
+2026-09-03,SKU-STAPLE-02,Staples & Grains,11,320,39,Sharbati Whole Wheat Atta 10kg,250,,5
+2026-09-03,SKU-DAIRY-01,Dairy & Perishables,25,52,21,Farm Fresh Milk 1L,42,3,1
+2026-09-03,SKU-DAIRY-06,Dairy & Perishables,1,120,38,Artisanal Organic Paneer 200g,95,7,2
+2026-09-03,SKU-SNACK-03,Snacks & Beverages,8,190,31,Grand Reserve Masala Chai 250g,115,,3
+2026-09-03,SKU-SNACK-08,Snacks & Beverages,16,55,29,Golden Crunch Butter Biscuits,38,,2
+2026-09-03,SKU-CARE-01,Personal & Home Care,3,185,27,Active Floral Detergent 2kg,140,,4
+2026-09-04,SKU-STAPLE-01,Staples & Grains,14,380,12,Royal Basmati Rice 5kg,300,,7
+2026-09-04,SKU-STAPLE-02,Staples & Grains,15,320,24,Sharbati Whole Wheat Atta 10kg,250,,5
+2026-09-04,SKU-DAIRY-01,Dairy & Perishables,28,52,33,Farm Fresh Milk 1L,42,3,1
+2026-09-04,SKU-DAIRY-06,Dairy & Perishables,2,120,36,Artisanal Organic Paneer 200g,95,7,2
+2026-09-04,SKU-SNACK-03,Snacks & Beverages,9,190,22,Grand Reserve Masala Chai 250g,115,,3
+2026-09-04,SKU-SNACK-08,Snacks & Beverages,18,55,51,Golden Crunch Butter Biscuits,38,,2
+2026-09-04,SKU-CARE-01,Personal & Home Care,6,185,21,Active Floral Detergent 2kg,140,,4

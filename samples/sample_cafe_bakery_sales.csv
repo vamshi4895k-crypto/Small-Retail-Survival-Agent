@@ -1,0 +1,16 @@
+date,sku,category,units_sold,unit_price,stock_on_hand,name,cost_price,shelf_life_days,reorder_lead_time_days
+2026-09-01,CAFE-01,Coffee & Beans,18,220,50,Artisan Espresso Beans 500g,130,,4
+2026-09-01,CAFE-02,Bakery & Pastries,15,95,35,Butter Croissant,45,2,1
+2026-09-01,CAFE-03,Bakery & Pastries,8,140,25,Belgian Chocolate Muffin,65,3,1
+2026-09-01,CAFE-04,Beverages,30,160,60,Cold Brew Bottle 300ml,70,10,2
+2026-09-01,CAFE-05,Dairy & Oat,12,180,20,Barista Oat Milk 1L,110,14,3
+2026-09-02,CAFE-01,Coffee & Beans,22,220,28,Artisan Espresso Beans 500g,130,,4
+2026-09-02,CAFE-02,Bakery & Pastries,19,95,16,Butter Croissant,45,2,1
+2026-09-02,CAFE-03,Bakery & Pastries,10,140,15,Belgian Chocolate Muffin,65,3,1
+2026-09-02,CAFE-04,Beverages,34,160,26,Cold Brew Bottle 300ml,70,10,2
+2026-09-02,CAFE-05,Dairy & Oat,14,180,6,Barista Oat Milk 1L,110,14,3
+2026-09-03,CAFE-01,Coffee & Beans,25,220,3,Artisan Espresso Beans 500g,130,,4
+2026-09-03,CAFE-02,Bakery & Pastries,22,95,24,Butter Croissant,45,2,1
+2026-09-03,CAFE-03,Bakery & Pastries,12,140,23,Belgian Chocolate Muffin,65,3,1
+2026-09-03,CAFE-04,Beverages,38,160,48,Cold Brew Bottle 300ml,70,10,2
+2026-09-03,CAFE-05,Dairy & Oat,16,180,30,Barista Oat Milk 1L,110,14,3

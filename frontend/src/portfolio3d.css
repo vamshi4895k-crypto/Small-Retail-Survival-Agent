@@ -1,0 +1,172 @@
+/* 3D Interactive Portfolio & Graphic Loader Styles */
+@font-face {
+  font-family: 'Electrolize';
+  src: url('/electrolize-v14-latin-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/poppins-v19-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/poppins-v19-latin-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+#main-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+/* Graphic Loading Screen */
+#intro-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #12211c;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: opacity 0.8s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+#intro-svg {
+  width: 130px;
+  height: 130px;
+  filter: drop-shadow(0 0 25px rgba(230, 169, 74, 0.4));
+}
+
+#loading-rect {
+  transition: height 0.3s ease-out, y 0.3s ease-out;
+}
+
+/* Wave Transitions */
+#transition-container {
+  position: fixed;
+  z-index: 9998;
+  width: 220vw;
+  bottom: -150%;
+  transform: rotate(15deg);
+  left: -50%;
+  pointer-events: none;
+  transition: all 0.9s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+#transition-wave-svg {
+  transform: translateY(20px);
+}
+
+#transition-wave-svg-bottom {
+  transform: rotate(180deg) translateY(20px);
+}
+
+#transition-push {
+  height: 200vh;
+  background: linear-gradient(135deg, #e6a94a 0%, #c4892c 100%);
+}
+
+.showTransition {
+  animation: showTransitionAnim 1s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+
+.hideTopTransition {
+  animation: hideTopTransitionAnim 1s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+
+@keyframes showTransitionAnim {
+  0% {
+    bottom: -350%;
+    left: -60%;
+  }
+  100% {
+    bottom: -100%;
+    left: -40%;
+  }
+}
+
+@keyframes hideTopTransitionAnim {
+  0% {
+    bottom: -100%;
+    left: -40%;
+  }
+  100% {
+    bottom: 150%;
+    left: 40%;
+  }
+}
+
+/* 3D Sound Button & Header Controls */
+.sound-btn-3d {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: rgba(27, 45, 38, 0.85);
+  border: 1px solid rgba(230, 169, 74, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(8px);
+}
+
+.sound-btn-3d:hover {
+  background: #e6a94a;
+  color: #12211c;
+  box-shadow: 0 0 20px rgba(230, 169, 74, 0.4);
+}
+
+.sound-btn-3d.active {
+  border-color: #e6a94a;
+  background: rgba(230, 169, 74, 0.2);
+}
+
+/* 3D Scroll Wheel Indicator */
+.scroll-3d-indicator {
+  width: 22px;
+  height: 36px;
+  border: 2px solid #e6a94a;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.scroll-3d-wheel {
+  width: 4px;
+  height: 8px;
+  background: #e6a94a;
+  border-radius: 2px;
+  animation: scrollWheelAnim 1.6s ease-in-out infinite;
+}
+
+@keyframes scrollWheelAnim {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(12px);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
