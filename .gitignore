@@ -56,5 +56,6 @@ Thumbs.db
 *.mp4
 *.mov
 *.avi
-*.mkv
-
+# Office temp files
+~$*
+~$*.docx
